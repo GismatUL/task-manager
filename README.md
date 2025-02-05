@@ -17,6 +17,8 @@ This is a **Task Management System** built with Laravel.
 - Navigate to the project directory: cd task-manager
 - composer install
 - npm install && npm run dev
+- cp .env.example .env
+- php artisan key:generate
 - php artisan migrate
 - php artisan db:seed **to create default projects to use it when creating task and also for filtering**
 - php artisan serve
